@@ -1,0 +1,60 @@
+.body{
+  min-height: 4000px;
+}
+
+
+.banner {
+  background: url("img/cc.jpg") no-repeat center center;
+  color: #f7ffff;
+  background-size: cover; 
+  padding-top: 25%;
+  padding-bottom: 30%;
+}
+
+
+.album {
+  background-color: #fcf5f5;
+  min-height: 150vh; 
+  background-size: cover;
+}
+
+.album h2{
+  padding: 2rem;
+}
+
+
+.bts {
+  background-color: #ffffff;
+  min-height: 150vh; 
+  background-size: cover;
+}
+
+.bts {
+  passing: 2rem;
+}
+
+/* media queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+html {
+font-size: 62.5%;
+}
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+html {
+font-size: 62.5%;
+}
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+html {
+font-size: 55%;
+}
+}
+
+
+
